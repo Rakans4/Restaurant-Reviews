@@ -1,0 +1,25 @@
+/* smartphones */
+@media screen and (max-width: 640px) {
+
+}
+
+/* tablets */
+@media screen and (max-width: 1025px){ 
+    .inside #map-container {
+        position: relative;
+        top: 130px;
+        height: 200px;
+        width: 100%
+      }
+      .inside #breadcrumb {
+        width: 100%;
+      }
+      #restaurant-container {
+        width: 100%;
+    /*     padding: 1em; */
+      }
+      #reviews-container {
+        width: 100%;
+        /*! padding: auto; */
+      }
+}
